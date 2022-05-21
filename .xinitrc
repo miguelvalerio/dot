@@ -1,9 +1,5 @@
 #!/bin/sh
 xrandr --auto
-xrandr --output HDMI-1 --scale 1.5
-xrandr --output eDP-1 --scale 0.9999x0.9999
-xrandr --output DisplayPort-1 --right-of DisplayPort-0
-xrandr --output DisplayPort-1 --primary
 
 userresources=$HOME/.Xresources
 usermodmap=$HOME/.Xmodmap
